@@ -1,0 +1,78 @@
+.header-wrapper{
+    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+    border-bottom: 2px solid blue;
+}
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 15px auto;
+    align-items: center;
+}
+.header-logo{
+    border-radius:4px;
+}
+.header-logo img{
+    border-radius: 5px;
+    width: 61px;
+}
+.header-menu a{
+    text-decoration: none;
+}
+.header-menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-menu ul li{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+.header-menu ul li::last-child{
+margin-right: 0;
+}
+.header-menu ul li button{
+    background: #43B5A5;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+.header-menu ul li{
+font-size: 12px;
+margin-right: 5px;
+}
+.container-header{
+    width: 95%;
+}
+.header-logo img{
+    width: 42px;
+}
+.header-menu ul li button{
+    font-size: 12px;
+    padding: 3px 5px;
+}
+.wrapper-form{
+    flex-direction: column;
+}
+.form-post{
+    width: 80%;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .header-menu ul li{
+        font-size: 10px;
+    }
+}

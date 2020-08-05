@@ -1,0 +1,69 @@
+.wrapper-footer{
+    background: #3a3b3c;
+    margin-top: 70px;
+}
+
+.row-alamat{
+    padding-top: 50px;
+    margin-bottom: 100px !important;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+    color: white;
+}
+.about-us{
+    width: 60%;
+}
+.about-us p{
+    line-height: 1.5;
+}
+.alamat-kantor{
+    width: 30%;
+}
+.alamat-kantor p{
+    line-height: 1.5;
+}
+.row-copyright{
+    color: white;
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    margin: auto;
+}
+.syarat-dann-ketentuan{
+    display: flex;
+}
+.syarat-dann-ketentuan p{
+    margin-right: 20px;
+}
+.syarat-dann-ketentuan a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 992px) {
+    .row-alamat{
+        flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px !important;
+    }
+    .about-us{
+        width: 100%;
+    }
+    .alamat-kantor{
+        width: 100%;
+    }
+    .row-copyright{
+        flex-direction: column;
+    }
+    .syarat-dann-ketentuan p{
+        font-size: 13px;
+    margin: 10px;
+    }
+    .copyright{
+        text-align: center;
+    }
+}

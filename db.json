@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "teknologi informasi",
+      "body": "lorem ipsum dolor si amet amet"
+    },
+    {
+      "id": 3,
+      "title": "teknologi informasi",
+      "body": "lorem ipsum dolor si amet amet"
+    },
+    {
+      "id": 4,
+      "title": "teknologi informasi",
+      "body": "lorem ipsum dolor si amet amet"
+    },
+    {
+      "id": 5,
+      "title": "sit asperiores ipsam eveniet odio non quia",
+      "body": "inventore ab sint natus fugit id nulla sequi architecto nihil quaerat eos tenetur in in eum veritatis non quibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+      "id": 6,
+      "title": "sit asperiores ipsam eveniet odio non quia",
+      "body": "inventore ab sint natus fugit id nulla sequi architecto nihil quaerat eos tenetur in in eum veritatis non quibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+      "id": 7,
+      "title": "sit asperiores ipsam eveniet odio non quia",
+      "body": "inventore ab sint natus fugit id nulla sequi architecto nihil quaerat eos tenetur in in eum veritatis non quibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+      "id": 8,
+      "title": "sit asperiores ipsam eveniet odio non quia",
+      "body": "inventore ab sint natus fugit id nulla sequi architecto nihil quaerat eos tenetur in in eum veritatis non quibusdam officiis aspernatur cumque aut commodi aut"
+    },
+    {
+      "id": 9,
+      "title": "sit asperiores ipsam eveniet odio non quia",
+      "body": "inventore ab sint natus fugit id nulla sequi architecto nihil quaerat eos tenetur in in eum veritatis non quibusdam officiis aspernatur cumque aut commodi aut afsorii"
+    }
+  ]
+}

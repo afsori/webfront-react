@@ -1,0 +1,32 @@
+.wrapper-detail-gae a{
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 50px;
+    font-weight: bold;
+}
+.card-detail-page{
+    border: 2px solid blue;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+p.detail-headline{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Media Query */
+@media screen and (max-width: 992px) {
+.card-detail-page{
+    width: 80%;
+}
+}
